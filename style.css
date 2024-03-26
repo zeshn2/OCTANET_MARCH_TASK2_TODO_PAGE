@@ -1,0 +1,53 @@
+body {
+ font-family: Arial, sans-serif;
+ background-image:url('srz.jpg'); 
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.container {
+ max-width: 400px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container {
+ max-width: 400px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+input[type="text"] {
+ width: 70%;
+ padding: 10px;
+ margin-right: 10px;
+}
+
+button {
+ padding: 10px 20px;
+ margin-top: 10px;
+ background-color: #007bff;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #0056b3;
+}
+
+ul {
+ list-style-type: none;
+ padding: 0;
+}
+
+li {
+ margin-bottom: 10px;
+ cursor: pointer;
+}
+
+.completed {
+ text-decoration: line-through;
+}
